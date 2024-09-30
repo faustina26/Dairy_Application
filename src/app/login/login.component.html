@@ -1,0 +1,40 @@
+<div class="back">
+    <div id="login">
+        <div class="card">
+        <h3>Login</h3>
+        <form [formGroup]="loginForm">
+        <mat-form-field >
+            <mat-label>Email</mat-label>
+            <input class="ip" matInput formControlName="email" type="email">
+            <mat-error *ngIf="email?.errors?.['required']">
+                Email is required</mat-error>
+            <mat-error *ngIf="email?.errors?.['pattern']">
+                Enter valid Email address</mat-error>
+        </mat-form-field>
+        <br>
+        <mat-form-field >
+            <mat-label>Password</mat-label>
+            <input  class="ip" matInput  formControlName="password" name="password" type="password">
+            <mat-error *ngIf="password?.errors?.['required']">
+                Password is required</mat-error>
+            <mat-error *ngIf="password?.errors?.['pattern']">
+                Enter valid Password</mat-error>
+        </mat-form-field>
+        <p>forgot password?</p>
+      <div class="btn">
+        <div>
+            <button matButton mat-raised-button color="primary" (click)="validateUser()">
+            Login
+            </button>
+        </div>
+        <div>
+            <a routerLink="/register">
+            <button matButton mat-raised-button color="accent" >
+                Sign Up
+                </button></a>
+        </div>
+    </div>  
+        </form>
+    </div>
+    </div>
+</div>

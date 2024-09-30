@@ -1,0 +1,34 @@
+span{   
+  display: flex;
+  justify-content: space-between; 
+}
+img{
+  margin-left: 390px;
+  margin-bottom: 5px;
+}
+.logo{
+  width: 1080px;
+  text-align: center;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+span{
+  
+  font-size: 30px;
+  font-family: 'Black Ops One', system-ui;
+  letter-spacing: 2px;
+  
+}
+.brand{
+  color: white;
+}
+a{
+  padding-right: 20px
+}
+.toolbar{
+ background-color:black
+}
+mat-icon{
+  color: white;
+}

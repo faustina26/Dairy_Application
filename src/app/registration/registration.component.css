@@ -1,0 +1,60 @@
+
+.back{
+    margin-top: -20px;
+    background-image: url(../../assets/signupbackground.jpg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-size: 100% 100%;
+   height: 150vh;
+}
+
+.inputStyle{
+    margin-right: 20px;
+}
+#email {
+    width: max-content;
+}
+#email input{
+    width: max-content;
+}
+#container{
+    padding-top: 20px;
+    margin: 20px 400px;
+   
+ 
+}
+.addressField{
+    width:max-content
+}
+#radio-buttons{
+    margin-bottom: 20px;
+    margin-top: 35px;
+    
+}
+.radio-button-style{
+    margin-right: 20px;
+    color:black ;
+    font-size: 15px;
+}
+#formHeader{
+    color: #4a148c;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+#address{
+    color:black ;
+    font-size: 15px;
+}
+#button-style{
+    margin-left: 70px;
+}
+#resetButton{
+    margin-right: 70px;
+    padding: 0px 30px;
+}
+#submitButton{
+    padding: 0px 30px;
+}

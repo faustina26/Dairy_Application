@@ -1,0 +1,74 @@
+<div class="page">
+<div class="details">
+  <div class="image">
+    <img src="../../assets/{{product.productName}}.jpg" width="300px" height="300px" alt="">
+  </div>
+  <div>
+    <div class="content">
+      <h1>{{product.productName}}</h1>
+      <h2>Category : <span>{{product.category}}</span></h2>
+      <div>
+      <div class="ratings" >
+        <mat-chip class="chip" ><span>{{product.ratings}}</span><i class="fa-solid fa-star" style="color:darkgreen;"></i></mat-chip>   
+      </div>
+      <p class="price">Price : ${{product.price}}</p>
+     <p>You Save:<span>20% OFF</span></p>
+     <p>
+      (inclusive of all taxes)</p>
+    </div>
+    <div class="btn">
+    <button color="accent" mat-raised-button (click)="addCart(product)">Add to Cart</button>
+    <button routerLink="/cart" color="primary" mat-raised-button >Buy Now</button></div>
+  </div>
+
+
+</div>
+<hr >
+<div class="container">
+    
+  <div class="box-container">  
+    <div class="box">
+      <i class="fa-solid fa-ranking-star"></i>
+      <p>Quality</p>
+      <p>You can trust</p>
+    </div>
+    <div class="box">
+      <i class="fa-solid fa-clock"></i>
+      <p>On time</p>
+      <p>Guarantee</p>
+    </div>
+    <div class="box">
+      <i class="fa-solid fa-box-open"></i>
+      <p>Free</p>
+      <p>Delivery</p>
+    </div>
+    <div class="box">
+      <i class="fa-solid fa-arrow-rotate-left"></i>
+      <p>Return Policy</p>
+      <p>No Question asked</p>
+    </div>
+  </div>
+  <hr class="hr">
+  <div class="descriptions">
+   
+    <p class="heading">{{product.productName}}--({{product.category}})</p>
+    
+    <table >
+      <tr>
+        <td class="use">About the Product</td>
+        </tr>
+      <tr>
+        <td>{{product.descriptions}}</td>
+      </tr>
+      <hr class="thr">
+      <tr>
+          <td class="use">How to Use</td>
+        </tr>
+        <tr>
+          <td>Remove the carton and use it. Keep refrigerated. 
+          </td>
+      </tr>
+    </table>
+  </div>
+</div>
+</div>

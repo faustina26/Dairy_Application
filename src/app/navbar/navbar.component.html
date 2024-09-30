@@ -1,0 +1,47 @@
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav
+      #drawer
+      class="sidenav"
+      fixedInViewport
+      [attr.role]="'navigation'"
+      [mode]="'side'"
+      [opened]="false"
+    >
+      <mat-toolbar>Menu</mat-toolbar>
+      <mat-nav-list class="navlist">
+        <a routerLink="../home" mat-list-item href="/">
+          <mat-icon  class="icon">home</mat-icon>Home
+        </a>
+        <a mat-list-item href="#">
+          <mat-icon class="icon">shopping_cart</mat-icon>Cart
+        </a>    
+        <a mat-list-item routerLink="/cart">
+          <button mat-stroked-button id="signin-button" color="primary">
+            <mat-icon class="icon">account_circle</mat-icon>Sign In
+          </button>
+        </a>
+        <a mat-list-item routerLink="/home">
+          <button mat-stroked-button id="signin-button" color="primary">
+           Log out
+          </button>
+        </a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <mat-toolbar class="sidenavv">
+        <button  matTooltip="Menu" 
+          type="button"
+          aria-label="Toggle sidenav"
+          mat-icon-button
+          (click)="drawer.toggle()">
+          <mat-icon class="hamburger" aria-label="Side nav toggle icon">menu</mat-icon>
+        </button>
+        <app-header></app-header>    
+      </mat-toolbar>
+      <!-- Add Content Here -->   
+      <div id="main-section">
+        <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  

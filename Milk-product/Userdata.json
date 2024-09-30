@@ -1,0 +1,106 @@
+{
+  "user_Data": [
+    {
+      "firstName": "balaji",
+      "lastName": "L",
+      "password": "Balaji09!",
+      "confirmPassword": "Balaji09!",
+      "gender": "Male",
+      "age": "21",
+      "email": "bala@gmail.com",
+      "phone": "9319876543",
+      "address": {
+        "street": "nehru street",
+        "city": "chennai",
+        "state": "tamilnadu",
+        "zipCode": "60002"
+      },
+      "id": 1
+    },
+    {
+      "firstName": "balaji",
+      "lastName": "L",
+      "password": "Balaji09#",
+      "confirmPassword": "Balaji09#",
+      "gender": "Male",
+      "age": "21",
+      "email": "balaji@gmail.com",
+      "phone": "9876543211",
+      "address": {
+        "street": "first street",
+        "city": "chennai",
+        "state": "tamilnadu",
+        "zipCode": "60001"
+      },
+      "id": 2
+    },
+    {
+      "firstName": "kishore",
+      "lastName": "V",
+      "password": "Kishore123#",
+      "confirmPassword": "Kishore123#",
+      "gender": "Male",
+      "age": "",
+      "email": "kishore@gmail.com",
+      "phone": "9876123434",
+      "address": {
+        "street": "first street",
+        "city": "chennai",
+        "state": "Tamilnadu",
+        "zipCode": "60001"
+      },
+      "id": 3
+    },
+    {
+      "firstName": "thamilmaaran",
+      "lastName": "manokaran",
+      "password": "Maara@1028",
+      "confirmPassword": "Maara@1028",
+      "gender": "Male",
+      "age": "",
+      "email": "iamthamilmaaran@gmail.com",
+      "phone": "8056057608",
+      "address": {
+        "street": "30 ssv kov",
+        "city": "chennai",
+        "state": "tn",
+        "zipCode": "600011"
+      },
+      "id": 4
+    },
+    {
+      "firstName": "thamilmaaran",
+      "lastName": "manokaran",
+      "password": "Maara@1028",
+      "confirmPassword": "Maara@1028",
+      "gender": "Male",
+      "age": "",
+      "email": "iamthamilmaaran@gmail.com",
+      "phone": "8056057608",
+      "address": {
+        "street": "30 ssv kov",
+        "city": "chennai",
+        "state": "tn",
+        "zipCode": "600011"
+      },
+      "id": 5
+    },
+    {
+      "firstName": "abc",
+      "lastName": "v",
+      "password": "Balaji09#",
+      "confirmPassword": "Balaji09#",
+      "gender": "Male",
+      "age": "",
+      "email": "abc@gmail.com",
+      "phone": "9876543212",
+      "address": {
+        "street": "abc",
+        "city": "abc",
+        "state": "tn",
+        "zipCode": "50928"
+      },
+      "id": 6
+    }
+  ]
+}

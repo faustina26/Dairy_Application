@@ -1,0 +1,49 @@
+
+a{
+    text-decoration: none;
+}
+mat-card-title{
+    text-transform:uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black
+}
+.matcard{
+    width: 250px;
+    padding: 5px;
+  text-align: center;
+  display: inline-flex;
+ 
+  margin: 20px 70px 20px 90px;
+  line-height: 30px;
+  padding: 20px;
+ background-color: white;
+}
+
+mat-chip.chip{
+    margin-left: 85px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 16px;
+    width: 43px;
+    background-color:rgb(212, 244, 212);
+}
+span{
+    font-size: small;
+}
+i{
+    font-size: small;
+ 
+    margin-right: 2px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    }
+
+button{
+    margin-top: 20px;
+}

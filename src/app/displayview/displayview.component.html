@@ -1,0 +1,4 @@
+<div>
+<app-search (searchNote)="onSearchNote($event)" (category)="category($event)"></app-search>
+<app-items *ngFor="let p of n" [items]=p></app-items>
+</div>

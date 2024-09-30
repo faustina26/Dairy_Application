@@ -1,0 +1,23 @@
+
+
+  <mat-card class="matcard">
+    <a routerLink="../product-detail/{{items?.id}}">
+   <div>
+    <img src="../../assets/{{items?.productName}}.jpg" alt="" width="200px" height="180px">
+<div>
+    <mat-card-title>{{items?.productName}}</mat-card-title>
+      <!-- <mat-card-content>{{items?.category}}</mat-card-content> -->
+      <mat-card-subtitle>Price : ${{items?.price}}</mat-card-subtitle>
+    <mat-chip class="chip"><span>{{items?.ratings}}</span><i class="fa-solid fa-star" style="color:darkgreen;"></i></mat-chip>
+  </div> 
+  </div>
+</a>
+<div>
+    <mat-card-footer>
+        <button mat-raised-button matTooltip="Add Cart" (click)="tocart(items)" color="accent">Add Cart</button>
+    </mat-card-footer>
+  </div>
+    </mat-card>
+ 
+
+
